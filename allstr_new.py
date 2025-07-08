@@ -94,7 +94,7 @@ class AllStr(list):
         # str normalization
         for struc in self:
             struc: Str
-            struc.sort_atom_by_element()
+            #struc.sort_atom_by_element()
             struc.set_strinfo_from_atom()
             struc.set_coord()
             struc.Cell = struc.Latt2Cell()
